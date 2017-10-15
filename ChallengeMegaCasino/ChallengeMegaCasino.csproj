@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\Thumbs.db" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -75,10 +76,30 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="images\Bar.png" />
+    <Content Include="images\Bell.png" />
+    <Content Include="images\Cherry.png" />
+    <Content Include="images\Clover.png" />
+    <Content Include="images\Diamond.png" />
+    <Content Include="images\HorseShoe.png" />
+    <Content Include="images\Lemon.png" />
+    <Content Include="images\Orange.png" />
+    <Content Include="images\Plum.png" />
+    <Content Include="images\Seven.png" />
+    <Content Include="images\Strawberry.png" />
+    <Content Include="images\Watermellon.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
